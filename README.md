@@ -32,13 +32,26 @@ malta_bot/
 ├── main.py                  # Bot logic and Telegram handlers
 ├── context_loader.py        # Reads PDF and TXT files from knowledge_base/
 ├── requirements.txt         # Python dependencies
-├── .env                     # ⚠️ Your secret keys — never commit this
+├── .env                     # ⚠️ Your secret keys
 └── knowledge_base/          # ✏️ Drop your PDFs here
     ├── housing.pdf
     ├── transport.pdf
     ├── health.pdf
     └── general.pdf
 ```
+
+---
+
+## About this project
+
+This project was developed as part of my internship at **AIntelligence Research**.
+
+The goal was to build a real-world Telegram bot that helps newcomers and expats in Malta by answering questions using a curated knowledge base of PDF documents.
+
+It integrates:
+- Telegram Bot API
+- Google Gemini AI
+- Document-based knowledge retrieval (PDF knowledge base)
 
 ---
 
